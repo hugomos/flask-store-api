@@ -1,49 +1,39 @@
-# Flask Store API - Refactoring
+Developed with Flask and SQLAlchemy, this is a small-scale application showcasing basic CRUD operations for product management. It serves as a simple demonstration of concept, emphasizing practicality over complexity.
 
-Este README Este README fornece uma visão geral da aplicação "Flask Store API - Refactoring", que foi desenvolvida com intuito de aplicar boas praticas de refatoração com padrões como o Clean Code, SOLID, Domain Driven Design e Hexagonal Architecture. A funcão da aplicação é realizar um CRUD simples. Para começar, siga as instruções abaixo.
+## Prerequisites for running the project:
 
-## Tabela de Conteúdos
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Uso](#uso)
+- [Python](https://www.python.org/downloads/) version 3.6 or higher
+- [Git](https://git-scm.com/downloads)
 
-## Pré-requisitos
+## Installation Instructions
 
-Antes de usar a aplicação, certifique-se de ter os seguintes pré-requisitos em vigor:
+To set up the application on your local machine, follow these steps:
 
-- **Git**: Você precisará do Git para clonar o projeto. Se você não o tiver instalado, pode baixar e instalar no [site oficial do Git](https://git-scm.com/).
-
-- **Python^3**: Certifique-se de ter a Interface de Linha de Comando da AWS (CLI) instalada em sua máquina. Se você ainda não a tiver instalada, pode seguir o [guia oficial de instalação da AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html).
-
-- **Python^3**: Certifique-se de ter o Python instalado em sua máquina. Se você ainda não a tiver instalado, pode baixar o executavel no [site oficial do Python](https://www.python.org/downloads/) e instala-la.
-
-## Instalação
-
-Para configurar a aplicação em sua máquina local, siga estas etapas:
-
-1. Clone o projeto para um diretório de sua escolha usando o Git. Abra o terminal ou prompt de comando e execute o seguinte comando:
+1. Clone the project to a directory of your choice using Git. Open your terminal or command prompt and execute the following command:
 
    ```shell
-   git clone https://github.com/hugomos/flask-store-api.git
+   git clone https://github.com/your-username/repository-name.git
 
-2. Clone o projeto para um diretório de sua escolha usando o Git. Abra o terminal ou prompt de comando e execute o seguinte comando:
-
+2. Navigate to the project directory:
    ```shell
-   cd <diretório_do_projeto>
+   cd <dir>
 
-3. Crie um ambiente virtual na raiz do diretório. Abra o terminal ou prompt de comando e execute o seguinte comando:
+3. Create a virtual environment in the root of the directory. Open your terminal or command prompt and execute the following command:
+  * On Windows
     ```shell
-    python -m venv .venv
-    source .venv/bin/activate
+          python -m venv venv
+          venv\Scripts\activate
+  * On macOS/Linux:
+    ```shell
+          python3 -m venv venv
+          source venv/bin/activate
 
-4. Execute o comando `pip install -r requirements.txt` para instalar as dependências da aplicação.
+4. Run the command ```python pip install -r requirements.txt``` to install the application dependencies.
 
-## Uso
+## Stack
+The technology stack used in this project includes:
 
-Depois de concluir as etapas de instalação e configuração, você pode começar a usar a aplicação para executar operações de CRUD.
-
-Aproveite o uso da aplicação "Flask Store API - Refactoring"! Se encontrar algum problema ou tiver feedback, sinta-se à vontade para entrar em contato para suporte ou melhorias.
-
----
-
-[Link do perfil do autor original](https://www.linkedin.com/in/hugomos/)
+Flask: A lightweight web framework for Python.
+SQLAlchemy: An SQL toolkit and Object-Relational Mapping (ORM) library for Python.
+Python: Version 3.6 or higher.
+Git: Version control system for tracking changes in source code during software development.
